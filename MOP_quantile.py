@@ -113,9 +113,9 @@ class MOP_quantile:
 
             # split for conformal regression
             train_rows_treat, val_rows_treat, train_outcome_treat, val_labels_treat = \
-                train_test_split(rows_treat, labels_treat[i], shuffle=True, test_size=0.5)
+                train_test_split(rows_treat, labels_treat[i], shuffle=True, test_size=0.5, random_state=0)
             train_rows_control, val_rows_control, train_outcome_control, val_labels_control = \
-                train_test_split(rows_control, labels_control[i], shuffle=True, test_size=0.5)
+                train_test_split(rows_control, labels_control[i], shuffle=True, test_size=0.5, random_state=0)
 
             # check estimator internal error
             error_no_tmp = 0
