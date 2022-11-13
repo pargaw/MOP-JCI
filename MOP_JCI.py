@@ -4,8 +4,8 @@ from conf_prediction import *
 
 # This method was extended from the Robust recursive partitioning algorithm: https://github.com/vanderschaarlab/mlforhealthlabpub/blob/main/LICENSE.md
 
-# Multi outcome partitioning (MOP)
-class MOP:
+# Multi outcome partitioning using Joint Confidence Intervals (MOP-JCI)
+class MOP_JCI:
     def __init__(self, estimator_treat_dict=None, estimator_control_dict=None,
                  max_depth=-1, min_size=10,
                  conformal_mode="SCR_CMGP", params_qf=None,
