@@ -1,5 +1,6 @@
 # MOP-JCI
 ### Identifying Heterogeneous Treatment Effects in Multiple Outcomes using Joint Confidence Intervals
+[Paper](https://proceedings.mlr.press/v193/argaw22a.html)
 
 Heterogeneous treatment effects (HTEs) are commonly identified during randomized controlled trials (RCTs). Identifying subgroups of patients with similar treatment effects is of high interest in clinical research to advance precision medicine. Often, multiple clinical outcomes are measured during an RCT, each having a potentially heterogeneous effect. Recently there has been high interest in identifying subgroups from HTEs, however, there has been less focus on developing tools in settings where there are multiple outcomes. In this work, we propose a framework for partitioning the covariate space to identify subgroups across multiple outcomes based on the joint CIs. We test our algorithm on synthetic and semi-synthetic data where there are two outcomes, and demonstrate that our algorithm is able to capture the HTE in both outcomes simultaneously.
 
